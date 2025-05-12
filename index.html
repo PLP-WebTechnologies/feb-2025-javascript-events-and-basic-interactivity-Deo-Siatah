@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Javascript Playground</h1>
+    
+    <!--Button -->
+    <button id="clickBtn">Click Me!</button>
+
+    <!--hover area-->
+    <div id="hoverBox"> Hover over here!</div>
+
+    <!--keypress display-->
+    <p>Press any key:<span id="keyoutput">None</span></p>
+
+    <!--Secret Double Click-->
+    <button id="secretBtn">Double Click Me!</button>
+
+    <!--change color-->
+    <button id="colorbtn">Change Color</button>
+
+    <!--Image Gallery-->
+    <div class="gallery">
+        <img id="galleryImage" src="images\pexels-robinstickel-70497.jpg" alt="robinstickel">
+        <br>
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <!--Tabs-->
+    <div class="tabs">
+        <button class="tab" data-tab="1">Tab 1</button>
+        <button class="tab" data-tab="2">Tab 2</button>
+        <div class="tab-content" id="tab1">Yoh😎,wanna here a fun fact!</div>
+        <div class="tab-content" id="tab2">Did you know that octopuses have three hearts? Two pump blood to the gills, and one pumps it to the rest of the body. Even crazier—when an octopus swims, its main heart actually stops beating to save energy!</div>
+    </div>
+
+    <!--Form-->
+    <form id="signupForm">
+        <h4>Sign Up</h4>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <span id="passwordFeedback"></span>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!--Link to js file-->
+    <script src="script.js"></script>
+    
+</body>
+</html>
